@@ -46,7 +46,7 @@ cp .env.example .env      # then edit it
 export SCRAPEUNBLOCKER_KEY=your_key_here
 ```
 
-The [official Python SDK](https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
+The [official Python SDK](https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
 reads the key from `SCRAPEUNBLOCKER_KEY`.
 
 ## CLI usage
@@ -145,13 +145,13 @@ make run URL=https://books.toscrape.com/
 
 | Step | SDK call | Endpoint |
 | ---- | -------- | -------- |
-| Discover image URLs | `client.get_page_source(url)` | [`getPageSource`](https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos) |
-| Download an image | `client.get_image(image_url)` | [`getImage`](https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos) |
+| Discover image URLs | `client.get_page_source(url)` | [`getPageSource`](https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos) |
+| Download an image | `client.get_image(image_url)` | [`getImage`](https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos) |
 
 ## Links
 
 - 🌐 Website: https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- 📚 Docs: https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- 📚 Docs: https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
 
 ## License
 
